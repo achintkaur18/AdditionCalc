@@ -1,0 +1,24 @@
+body{
+    padding: 50px;
+    text-align: center;
+    background-color: burlywood;
+   }
+   h1{
+    
+    padding: 10px;
+    margin-bottom: 30px;
+   }
+  a{
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 767px) {
+    input,.form-control{
+      display : inline-block !important;
+      width: 500px !important;
+      margin-bottom: 50px !important;
+    }
+    h2{
+      font-size : 20px;
+    }
+    
+  }
